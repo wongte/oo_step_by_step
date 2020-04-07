@@ -15,4 +15,9 @@ public class Teacher extends Person{
     public String introduce() {
         return String.format("My name is %s. I am %s years old. Teaching for the future of world.", this.name, this.age);
     }
+
+    public String greetingClassLeader(StudentClass studentClass) {
+        String introductionOfLeader = String.format("%s is the leader of Class %s.", this.name, studentClass.getClassNumber());
+        return this.introduce() + " " + introductionOfLeader;
+    }
 }

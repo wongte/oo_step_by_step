@@ -48,6 +48,8 @@ public class StudentClass {
     public void nominateLeader(Student leader) {
         if (studentList.contains(leader)) {
             classLeader = leader;
+            this.taughtTeacher.greetingClassLeader(this);
         }
     }
+
 }

@@ -25,4 +25,5 @@ public class StudentClassTest {
         Assert.assertEquals(studentClass, teacher.getTaughtClass()[0]);
         Assert.assertEquals(teacher, studentClass.getTaughtTeacher());
     }
+
 }
