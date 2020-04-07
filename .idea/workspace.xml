@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26785acf-b859-437d-b858-6cec75b2a395" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +54,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StudentTest.testStudent">
+  <component name="RunManager" selected="JUnit.TeacherTest.testTeacher">
     <configuration name="PersonTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oo_step_by_step" />
       <extension name="coverage">
@@ -89,8 +87,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TeacherTest.testTeacher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oo_step_by_step" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oocl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.oocl" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.TeacherTest" />
+      <option name="METHOD_NAME" value="testTeacher" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TeacherTest.testTeacher" />
         <item itemvalue="JUnit.StudentTest.testStudent" />
         <item itemvalue="JUnit.PersonTest.test" />
       </list>
@@ -114,26 +129,26 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="345" y="140" key="#Project_Structure/0.0.1504.963@0.0.1504.963" timestamp="1586241824062" />
-    <state x="558" y="191" key="#com.intellij.ide.util.MemberChooser" timestamp="1586242291009">
+    <state x="558" y="191" key="#com.intellij.ide.util.MemberChooser" timestamp="1586242603780">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="558" y="191" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963@0.0.1504.963" timestamp="1586242291009" />
-    <state width="1461" height="256" key="GridCell.Tab.0.bottom" timestamp="1586242541063">
+    <state x="558" y="191" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963@0.0.1504.963" timestamp="1586242603780" />
+    <state width="1461" height="256" key="GridCell.Tab.0.bottom" timestamp="1586242744659">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="256" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586242541063" />
-    <state width="1461" height="256" key="GridCell.Tab.0.center" timestamp="1586242541063">
+    <state width="1461" height="256" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586242744659" />
+    <state width="1461" height="256" key="GridCell.Tab.0.center" timestamp="1586242744659">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="256" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1586242541063" />
-    <state width="1461" height="256" key="GridCell.Tab.0.left" timestamp="1586242541063">
+    <state width="1461" height="256" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1586242744659" />
+    <state width="1461" height="256" key="GridCell.Tab.0.left" timestamp="1586242744659">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="256" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1586242541063" />
-    <state width="1461" height="256" key="GridCell.Tab.0.right" timestamp="1586242541063">
+    <state width="1461" height="256" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1586242744659" />
+    <state width="1461" height="256" key="GridCell.Tab.0.right" timestamp="1586242744659">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="256" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1586242541063" />
+    <state width="1461" height="256" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1586242744659" />
     <state x="254" y="124" key="SettingsEditor" timestamp="1586241301139">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
