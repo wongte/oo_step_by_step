@@ -10,8 +10,19 @@ public class StudentClassTest {
         student.setName("Tom");
         student.setAge(18);
         StudentClass studentClass = new StudentClass();
-        studentClass.register(student);
+        studentClass.registerStudent(student);
         studentClass.nominateLeader(student);
         Assert.assertEquals(student, studentClass.getClassLeader());
+    }
+
+    @Test
+    public void testTaughtTeacher() {
+        Teacher teacher = new Teacher();
+        teacher.setName("Woody");
+        teacher.setAge(23);
+        StudentClass studentClass = new StudentClass();
+        studentClass.setTaughtTeacher(teacher);
+        Assert.assertEquals(studentClass, teacher.getTaughtClass()[0]);
+        Assert.assertEquals(teacher, studentClass.getTaughtTeacher());
     }
 }

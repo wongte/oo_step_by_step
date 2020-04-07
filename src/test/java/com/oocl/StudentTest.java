@@ -12,7 +12,7 @@ public class StudentTest {
 
         StudentClass studentClass = new StudentClass();
         studentClass.setClassNumber(2);
-        studentClass.register(tom);
+        studentClass.registerStudent(tom);
         Assert.assertEquals("My name is Tom. I am 18 years old. I am a student of class 2. Coding for the glory of OOCL.", tom.introduce());
     }
 

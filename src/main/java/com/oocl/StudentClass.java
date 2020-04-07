@@ -7,6 +7,7 @@ public class StudentClass {
     private int classNumber;
     private List<Student> studentList;
     private Student classLeader;
+    private Teacher taughtTeacher;
 
     public StudentClass() {
         studentList = new ArrayList<Student>();
@@ -24,10 +25,26 @@ public class StudentClass {
         return classLeader;
     }
 
-    public void register(Student student) {
+    public void registerStudent(Student student) {
         student.setStudentClass(this);
         studentList.add(student);
     }
+
+    public void setTaughtTeacher(Teacher teacher) {
+        StudentClass[] taughtClass = teacher.getTaughtClass();
+        for (int index = 0; index < taughtClass.length; index++) {
+            if (taughtClass[index] == null) {
+                taughtClass[index] = this;
+                this.taughtTeacher = teacher;
+                break;
+            }
+        }
+    }
+
+    public Teacher getTaughtTeacher() {
+        return taughtTeacher;
+    }
+
     public void nominateLeader(Student leader) {
         if (studentList.contains(leader)) {
             classLeader = leader;
