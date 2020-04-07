@@ -67,13 +67,13 @@ public class StudentClassTest {
         tom.setName("Tom");
         tom.setAge(18);
 
-        Student woody = new Student();
-        woody.setName("Jim");
+        Student jim = new Student();
+        jim.setName("Jim");
 
         StudentClass studentClass = new StudentClass();
         studentClass.setClassNumber(2);
         studentClass.registerStudent(tom);
-        studentClass.registerStudent(woody);
+        studentClass.registerStudent(jim);
         Assert.assertEquals("My name is Tom. I am 18 years old. I am a student of class 2. Coding for the glory of OOCL. Welcome Jim join Class 2.", tom.getGreetingMessage());
     }
 }
