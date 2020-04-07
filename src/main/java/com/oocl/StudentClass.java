@@ -10,7 +10,7 @@ public class StudentClass {
     private Teacher taughtTeacher;
 
     public StudentClass() {
-        studentList = new ArrayList<Student>();
+        studentList = new ArrayList<>();
     }
 
     public void setClassNumber(int classNumber) {
@@ -29,7 +29,9 @@ public class StudentClass {
         studentList.forEach(student -> student.welcomeNewStudent(newStudent));
         newStudent.setStudentClass(this);
         studentList.add(newStudent);
-        this.taughtTeacher.greetingNewStudent(this, newStudent);
+        if (this.taughtTeacher != null) {
+            this.taughtTeacher.greetingNewStudent(this, newStudent);
+        }
     }
 
     public void setTaughtTeacher(Teacher teacher) {
@@ -50,7 +52,10 @@ public class StudentClass {
     public void nominateLeader(Student leader) {
         if (studentList.contains(leader)) {
             classLeader = leader;
-            this.taughtTeacher.greetingClassLeader(this, leader);
+            if (this.taughtTeacher != null) {
+                this.taughtTeacher.greetingClassLeader(this, leader);
+            }
+            this.studentList.forEach(student -> student.welcomeNewLeader(leader));
         }
     }
 

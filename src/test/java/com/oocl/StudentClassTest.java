@@ -76,4 +76,20 @@ public class StudentClassTest {
         studentClass.registerStudent(jim);
         Assert.assertEquals("My name is Tom. I am 18 years old. I am a student of class 2. Coding for the glory of OOCL. Welcome Jim join Class 2.", tom.getGreetingMessage());
     }
+    @Test
+    public void testStudentsGreetingNewLeader() {
+        Student tom = new Student();
+        tom.setName("Tom");
+        tom.setAge(18);
+
+        Student jim = new Student();
+        jim.setName("Jim");
+
+        StudentClass studentClass = new StudentClass();
+        studentClass.setClassNumber(2);
+        studentClass.registerStudent(tom);
+        studentClass.registerStudent(jim);
+        studentClass.nominateLeader(jim);
+        Assert.assertEquals("My name is Tom. I am 18 years old. I am a student of class 2. Coding for the glory of OOCL. Jim is the leader of Class 2.", tom.getGreetingMessage());
+    }
 }

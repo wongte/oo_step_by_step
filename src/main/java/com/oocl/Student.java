@@ -20,4 +20,10 @@ public class Student extends Person{
     public void welcomeNewStudent(Student newStudent) {
         greetingMessage = introduce() + " Welcome " + newStudent.getName() + " join Class " + this.studentClass.getClassNumber() + ".";
     }
+
+    public void welcomeNewLeader(Student newLeader) {
+        if (newLeader != this) {
+            greetingMessage = introduce() + String.format(" %s is the leader of Class %d.", newLeader.getName(), studentClass.getClassNumber());
+        }
+    }
 }
