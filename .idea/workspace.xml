@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="26785acf-b859-437d-b858-6cec75b2a395" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/oocl/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oocl/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/oocl/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oocl/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oocl/StudentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oocl/StudentTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +46,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.24742268" />
@@ -54,7 +60,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TeacherTest.testTeacher">
+  <component name="RunManager" selected="JUnit.StudentClassTest.testClassLeader">
     <configuration name="PersonTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oo_step_by_step" />
       <extension name="coverage">
@@ -66,6 +72,22 @@
       <option name="PACKAGE_NAME" value="com.oocl" />
       <option name="MAIN_CLASS_NAME" value="com.oocl.PersonTest" />
       <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentClassTest.testClassLeader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oo_step_by_step" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oocl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.oocl" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.StudentClassTest" />
+      <option name="METHOD_NAME" value="testClassLeader" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,8 +127,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TeacherTest.testTeacher" />
+        <item itemvalue="JUnit.StudentClassTest.testClassLeader" />
         <item itemvalue="JUnit.StudentTest.testStudent" />
+        <item itemvalue="JUnit.TeacherTest.testTeacher" />
         <item itemvalue="JUnit.PersonTest.test" />
       </list>
     </recent_temporary>
@@ -129,37 +152,45 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="345" y="140" key="#Project_Structure/0.0.1504.963@0.0.1504.963" timestamp="1586241824062" />
-    <state x="558" y="191" key="#com.intellij.ide.util.MemberChooser" timestamp="1586242603780">
+    <state x="558" y="191" key="#com.intellij.ide.util.MemberChooser" timestamp="1586244863058">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="558" y="191" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963@0.0.1504.963" timestamp="1586242603780" />
-    <state width="1461" height="256" key="GridCell.Tab.0.bottom" timestamp="1586242744659">
+    <state x="558" y="191" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963@0.0.1504.963" timestamp="1586244863058" />
+    <state x="533" y="223" key="FileChooserDialogImpl" timestamp="1586244643657">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="256" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586242744659" />
-    <state width="1461" height="256" key="GridCell.Tab.0.center" timestamp="1586242744659">
+    <state x="533" y="223" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1586244643657" />
+    <state width="1461" height="256" key="GridCell.Tab.0.bottom" timestamp="1586244953239">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="256" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1586242744659" />
-    <state width="1461" height="256" key="GridCell.Tab.0.left" timestamp="1586242744659">
+    <state width="1461" height="256" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586244953239" />
+    <state width="1461" height="256" key="GridCell.Tab.0.center" timestamp="1586244953239">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="256" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1586242744659" />
-    <state width="1461" height="256" key="GridCell.Tab.0.right" timestamp="1586242744659">
+    <state width="1461" height="256" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1586244953239" />
+    <state width="1461" height="256" key="GridCell.Tab.0.left" timestamp="1586244953239">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="256" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1586242744659" />
-    <state x="254" y="124" key="SettingsEditor" timestamp="1586241301139">
+    <state width="1461" height="256" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1586244953239" />
+    <state width="1461" height="256" key="GridCell.Tab.0.right" timestamp="1586244953239">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="254" y="124" key="SettingsEditor/0.0.1504.963@0.0.1504.963" timestamp="1586241301139" />
+    <state width="1461" height="256" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1586244953239" />
+    <state x="254" y="124" key="SettingsEditor" timestamp="1586244691251">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="254" y="124" key="SettingsEditor/0.0.1504.963@0.0.1504.963" timestamp="1586244691251" />
+    <state x="449" y="306" key="com.intellij.ide.util.TipDialog" timestamp="1586243255615">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="449" y="306" key="com.intellij.ide.util.TipDialog/0.0.1504.963@0.0.1504.963" timestamp="1586243255615" />
     <state x="524" y="185" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586241255405">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="524" y="185" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1504.963@0.0.1504.963" timestamp="1586241255405" />
-    <state x="415" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1586241819092">
+    <state x="415" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1586244854266">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="415" y="206" width="672" height="678" key="search.everywhere.popup/0.0.1504.963@0.0.1504.963" timestamp="1586241819092" />
+    <state x="415" y="206" width="672" height="678" key="search.everywhere.popup/0.0.1504.963@0.0.1504.963" timestamp="1586244854266" />
   </component>
 </project>
