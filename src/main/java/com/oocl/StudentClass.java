@@ -25,9 +25,11 @@ public class StudentClass {
         return classLeader;
     }
 
-    public void registerStudent(Student student) {
-        student.setStudentClass(this);
-        studentList.add(student);
+    public void registerStudent(Student newStudent) {
+        studentList.forEach(student -> student.welcomeNewStudent(newStudent));
+        newStudent.setStudentClass(this);
+        studentList.add(newStudent);
+        this.taughtTeacher.greetingNewStudent(this, newStudent);
     }
 
     public void setTaughtTeacher(Teacher teacher) {
@@ -48,7 +50,7 @@ public class StudentClass {
     public void nominateLeader(Student leader) {
         if (studentList.contains(leader)) {
             classLeader = leader;
-            this.taughtTeacher.greetingClassLeader(this);
+            this.taughtTeacher.greetingClassLeader(this, leader);
         }
     }
 
